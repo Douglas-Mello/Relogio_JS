@@ -1,0 +1,38 @@
+/* Estilização do corpo da página */
+body {
+    background: rgb(35, 35, 252); /* Define o fundo da página com uma cor azul */
+    font: normal 15pt Arial; /* Define a fonte padrão como Arial com tamanho de 15 pontos */
+    display: flex; /* Usa o modelo de layout flexbox */
+    justify-content: center; /* Alinha os itens horizontalmente no centro */
+    align-items: center; /* Alinha os itens verticalmente no centro */
+    flex-direction: column;  /* Organiza os elementos em uma coluna (título no topo e relógio abaixo) */
+    height: 100vh; /* Define a altura do body como 100% da altura da tela */
+    margin: 0; /* Remove as margens padrão do navegador */
+}
+
+/* Estilização do título */
+header {
+    color: white; /* Define a cor do texto do título como branco */
+    text-align: center; /* Centraliza o texto dentro do header */
+    margin-bottom: 10px; /* Adiciona um espaço de 20px abaixo do título para separá-lo do relógio */
+}
+
+/* Estilização do relógio */
+#Relogio {
+    color: rgb(0, 0, 0); /* Define a cor do texto do relógio como preto */
+    font-size: 50px; /* Define o tamanho da fonte do relógio como 50px */
+}
+
+/* Estilização da seção que envolve o título e o relógio */
+section {
+    background: rgb(255, 255, 255); /* Define o fundo da seção como branco */
+    border-radius: 80px; /* Adiciona bordas arredondadas com raio de 80px */
+    padding: 13px; /* Adiciona 13px de espaçamento interno (padding) em todos os lados da seção */
+    width: 650px; /* Define a largura da seção como 650px */
+    margin: auto; /* Centraliza a seção horizontalmente dentro do body */
+    text-align: center; /* Centraliza o conteúdo de texto dentro da seção */
+    box-shadow: 4px 8px 15px rgba(0, 0, 0, 0.5); /* Adiciona uma sombra suave ao redor da seção */
+    display: flex; /* Usa o modelo de layout flexbox dentro da seção */
+    flex-direction: column;  /* Organiza os itens dentro da seção em coluna (título no topo, relógio embaixo) */
+    justify-content: center;  /* Centraliza o conteúdo verticalmente dentro da seção */
+}
